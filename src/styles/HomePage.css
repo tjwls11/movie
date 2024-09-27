@@ -1,0 +1,72 @@
+.home-page {
+  background-color: #f0f0f0;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #2e8b57;
+  margin-bottom: 20px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.movie-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%; 
+  justify-content: center; 
+}
+
+.movie-card {
+  background-color: #ffffff;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0 5px; 
+  flex: 0 0 calc(33.33% - 10px); 
+  transition: transform 0.2s;
+  max-width: 170px; 
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 1.1em; /* 제목 크기 조정 */
+  color: #2e8b57;
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+  color: #555555;
+  font-size: 0.9em; /* 텍스트 크기 줄임 */
+}
+
+button {
+  background-color: #2e8b57; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px; 
+  cursor: pointer;
+  font-size: 0.9em; 
+}
+
+button:disabled {
+  background-color: #d1d1d1; 
+}

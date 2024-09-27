@@ -1,0 +1,137 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.brand {
+  font-size: 24px;
+  color: green;
+  font-family: serif;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menuItem {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.basketButton {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.brand {
+  font-size: 24px;
+  color: green;
+  font-family: serif;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menuItem {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.basketButton {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.movie-list {
+  margin: 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+
+.movie-card {
+  margin: 0 10px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie-details {
+  margin-top: 10px;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  z-index: 2;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-arrow::before {
+  color: white;
+  font-size: 1.5em;
+}
+
+.custom-prev-arrow {
+  left: -35px; 
+}
+
+.custom-next-arrow {
+  right: -35px;
+}
+
+.custom-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
